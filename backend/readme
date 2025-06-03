@@ -1,7 +1,0 @@
-Install the necessary libraries:
-pip install fastapi uvicorn boto3 python-dotenv
-
-From the project folder, run:
-uvicorn main:app --reload
-
-Visit http://127.0.0.1:8000/docs to try the API. (you can access the data of the DynamoDB using only this)
