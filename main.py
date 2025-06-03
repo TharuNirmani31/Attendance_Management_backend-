@@ -13,7 +13,7 @@ app = FastAPI()
 # Allow requests from Angular frontend (adjust if hosted elsewhere)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace with your Angular app domain in production
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
